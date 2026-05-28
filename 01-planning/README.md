@@ -1,0 +1,84 @@
+# 📋 وثائق التخطيط (Planning Documents)
+
+هذا المجلد يحتوي على جميع الوثائق التي يتم إعدادها **قبل بدء التنفيذ** للمشروع.
+
+## هيكل المجلد
+
+```
+01-planning/
+├── business/                    # الوثائق التجارية والعملية
+│   ├── brd.md                   # وثيقة متطلبات العمل
+│   ├── vision-document.md       # وثيقة الرؤية
+│   ├── requirements.md          # متطلبات المشروع
+│   ├── user-stories.md          # قصص المستخدمين
+│   ├── personas.md              # شخصيات المستخدمين
+│   └── business-rules.md        # قواعد العمل
+│
+├── technical/                   # الوثائق التقنية
+│   ├── architecture.md          # البنية التقنية العامة
+│   ├── backend-architecture.md  # بنية الخادم الخلفي
+│   ├── frontend-customer-architecture.md # بنية الواجهة الأمامية للعملاء
+│   ├── tech-stack-rationale.md  # مبررات اختيار المكونات التقنية
+│   ├── backend-implementation-plan.md    # خطة تنفيذ الخادم الخلفي
+│   ├── frontend-implementation-plan.md   # خطة تنفيذ الواجهة الأمامية
+│   ├── pwa-sync-implementation-guide.md  # دليل تنفيذ مزامنة PWA
+│   ├── saas-blueprint.md        # مخطط SaaS
+│   ├── technical-documentation-guide.md  # دليل التوثيق التقني
+│   └── gap-analysis.md          # تحليل الفجوات
+│
+└── README.md                    # هذا الملف
+```
+
+## الملفات الرئيسية
+
+### 📊 الوثائق التجارية (Business)
+- **[BRD](business/brd.md)**: وثيقة متطلبات العمل التفصيلية
+- **[Vision Document](business/vision-document.md)**: رؤية المشروع وأهدافه الاستراتيجية
+- **[Requirements](business/requirements.md)**: جميع المتطلبات الوظيفية وغير الوظيفية
+- **[User Stories](business/user-stories.md)**: قصص المستخدمين المفصلة
+- **[Personas](business/personas.md)**: وصف شخصيات المستخدمين المستهدفين
+- **[Business Rules](business/business-rules.md)**: القواعد والسياسات التجارية
+
+### 🏗️ الوثائق التقنية (Technical)
+- **[Architecture](technical/architecture.md)**: تصميم البنية العامة للنظام
+- **[Backend Architecture](technical/backend-architecture.md)**: تصميم بنية الخادم الخلفي
+- **[Frontend Customer Architecture](technical/frontend-customer-architecture.md)**: تصميم بنية الواجهة الأمامية للعملاء
+- **[Tech Stack Rationale](technical/tech-stack-rationale.md)**: المكونات التقنية المختارة وأسباب الاختيار
+- **[Backend Implementation Plan](technical/backend-implementation-plan.md)**: خطة تنفيذ الخادم الخلفي
+- **[Frontend Implementation Plan](technical/frontend-implementation-plan.md)**: خطة تنفيذ الواجهة الأمامية
+- **[PWA Sync Implementation Guide](technical/pwa-sync-implementation-guide.md)**: دليل تنفيذ مزامنة التطبيق التقدمي
+- **[SaaS Blueprint](technical/saas-blueprint.md)**: مخطط النظام كخدمة
+- **[Technical Documentation Guide](technical/technical-documentation-guide.md)**: دليل التوثيق التقني
+- **[Gap Analysis](technical/gap-analysis.md)**: تحليل الفجوات بين المتطلبات والإمكانيات
+
+## أهمية هذه الوثائق
+
+✅ **توضيح الرؤية**: فهم واضح لأهداف المشروع لجميع الأطراف
+✅ **أساس التخطيط**: تقديرات دقيقة للتكاليف والوقت
+✅ **تجنب التغييرات**: تقليل التعديلات أثناء التطوير
+✅ **مرجع للاختبار**: أساس لكتابة حالات الاختبار والقبول
+✅ **دعم القرارات**: معلومات لاتخاذ القرارات التقنية والتجارية
+
+## المسؤولون عن إعداد الوثائق
+
+| نوع الوثيقة | المسؤول | التوقيت |
+|-------------|---------|---------|
+| التجارية | Product Owner / Business Analyst | قبل بدء أي تطوير |
+| التقنية | Solution Architect / Technical Lead | بعد المتطلبات، قبل التنفيذ |
+| معايير الجودة | Technical Lead / Senior Developer | قبل التنفيذ |
+
+## ترتيب القراءة الموصى به
+
+1. **Vision Document** - فهم الرؤية العامة
+2. **Requirements** - معرفة المتطلبات التفصيلية
+3. **User Stories** - فهم احتياجات المستخدمين
+4. **Architecture** - فهم التصميم التقني
+5. **Implementation Plan** - معرفة خطة التنفيذ
+6. **Coding Standards** - معايير العمل
+
+
+
+---
+
+**📅 تاريخ آخر تحديث**: نوفمبر 2025
+**📊 حالة الإكمال**: 100% (جميع الوثائق الأساسية موجودة)
