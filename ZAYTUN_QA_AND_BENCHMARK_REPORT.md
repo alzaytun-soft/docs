@@ -1,4 +1,5 @@
-
+<div dir="rtl">
+  
 > **الشركة:** الزيتون للبرمجيات والأنظمة  
 > **المنتج:** نظام الزيتون سوفت (`POS & ERP SaaS` — مخصص حصريًا لمحلات الإلكترونيات والهواتف الذكية)  
 > **بيئة الفحص:** `vstaging` (إصدار `0.0.1` — مساحة العمل `alnokhba-mobile-demo`)  
@@ -789,3 +790,5 @@ Write-Host "Done! All $($Issues.Count) issues created on $Repo." -ForegroundColo
   **الوصف:** تحديث التوثيق المعماري لاستبدال `Last-Writer-Wins` في مزامنة المخزون والأرصدة بنموذج عمليات تراكمية (`Event/Ledger-based`)، وتوثيق دورة **صندوق التوريدات وإخلاء ذمة التسليم** (`PENDING_TREASURY` → `PAID_PENDING_HANDOVER` → `COMPLETED`) مع إمكانية نشر التوثيق عبر `Docusaurus / MkDocs` بدعم `RTL`.
   **معايير القبول:**
   - [ ] إضافة ملف مواصفة `treasury-handover-spec.md` وتحديث وثيقة المزامنة `offline-sync-flow.md`.
+
+</div>
